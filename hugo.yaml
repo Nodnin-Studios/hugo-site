@@ -1,0 +1,8 @@
+baseURL: ''
+languageCode: en-us
+title: Nodnin Studios
+theme: nodnin
+taxonomies:
+  project: projects
+  member: team
+  
