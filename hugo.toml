@@ -2,3 +2,7 @@ baseURL = ''
 languageCode = 'en-us'
 title = 'Nodrin Studios'
 theme = ['nodrin']
+[taxonomies]
+  project = 'projects'
+  member = 'team'
+  
