@@ -1,20 +1,23 @@
 {{ define "main" }}
-<div class="uk-placeholder uk-height-large uk-flex uk-flex-center uk-flex-middle uk-text-muted uk-background-muted uk-heading-large uk-margin-remove">Fancy Eye Candy</div>
+<div class="uk-placeholder uk-height-large uk-flex uk-flex-center uk-flex-middle uk-text-muted uk-background-muted uk-heading-large uk-margin-remove">{{.Params.hero}}</div>
 <section class="uk-container uk-margin-large">
   {{.Content}}
 </section>
 <section class="uk-container uk-margin-large">
   <h1 class="uk-heading-line"><span>Where to find us</span></h1>
   <div class="uk-grid-match uk-text-center uk-child-width-expand@s" uk-grid>
-    <div>
-      <div>Bluesky</div>
-    </div>
-    <div>
-      <div>Discord</div>
-    </div>
-    <div>
-      <div>Other</div>
-    </div>
+    {{ range .Params.socials }}
+      <div>
+        <div>
+          <a href="{{.url}}" class="uk-link-reset social-link">
+            <!-- <strong>{{.name}}</strong> -->
+            <span class="uk-border-circle social-icon" uk-tooltip="title:{{.name}}; delay:200; pos:bottom">
+              <i class="{{.icon}}"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    {{ end}}
   </div>
 </section>
 {{ end }}

@@ -18,6 +18,8 @@
     {{ with resources.Get "uikit/dist/js/uikit-icons.min.js"}}
     <script src="{{.RelPermalink}}"></script>
     {{end}}
+    
+    <script src="https://kit.fontawesome.com/bf00a5d43d.js" crossorigin="anonymous"></script>
   </head>
   <body class="uk-flex uk-flex-column">
     {{ partial "header.html" . }}

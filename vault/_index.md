@@ -1,3 +1,20 @@
+---
+title: Example
+date: 2025-04-20
+draft: false
+params:
+  hero: Some Eye Candy
+  socials:
+    - name: Bluesky
+      url: https://bsky.app/profile/did:plc:q5eahdkoo5esd4dsona4vzhu
+      icon: fa-brands fa-bluesky
+    - name: Youtube
+      url: https://www.youtube.com/@nodninstudios
+      icon: fa-brands fa-youtube
+    - name: Patreon
+      url: https://www.patreon.com/nodninstudios
+      icon: fa-brands fa-patreon
+---
 # Who We Are
 At Nodnin Studios, we're dedicated to fostering creativity, growth, and opportunity within our part of the game industry.
 
