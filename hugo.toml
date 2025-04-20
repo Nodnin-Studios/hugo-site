@@ -1,4 +1,4 @@
 baseURL = ''
 languageCode = 'en-us'
 title = 'Nodrin Studios'
-theme = 'nodrin'
+theme = ['nodrin']

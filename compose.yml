@@ -5,7 +5,6 @@ services:
     volumes:
       - "./vault:/src/vault"
       - "./content:/src/content"
-    command: /src/vault /src/content
     develop:
       watch:
         - action: rebuild
@@ -13,7 +12,7 @@ services:
 
   hugo:
     image: hugomods/hugo:exts-non-root
-    command: server --buildDrafts --renderToMemory --poll 1000ms
+    command: server --buildDrafts --renderToMemory --poll 1000ms --disableFastRender
     volumes:
       - ".:/src/"
     ports: 

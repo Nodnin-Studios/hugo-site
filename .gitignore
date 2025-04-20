@@ -1,7 +1,6 @@
 resources/*
 static/*
 data/*
-assets/*
 content/*
 
 vault/.obsidian
