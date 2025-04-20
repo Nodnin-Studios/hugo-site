@@ -1,5 +1,5 @@
 # Hugo Site
-This repo is the github-pages hosted site for Nodrin Studios. For a full rundown on how this project operates, you can read up on the tutorial used to build it [here](https://caaz.me/tutorials/obsidian-github-pages/).
+This repo is the github-pages hosted site for Nodnin Studios. For a full rundown on how this project operates, you can read up on the tutorial used to build it [here](https://caaz.me/tutorials/obsidian-github-pages/).
 
 ## Prerequisites
 To modify, test, or develop the site, you'll need a few tools to do it effeciently. You can, of course modify files directly with Github's website-based editors, but these tools are the intended use case.
